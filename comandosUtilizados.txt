@@ -1,0 +1,26 @@
+cd /C/Users/User/Desktop/DH/PrimerExamenPractico/20230605-NicolasPena
+git add .
+git commit -m "commit 01 de NicolasPena"
+git remote add origin https://github.com/Nispec/20230605-NicolasPena.git
+git push -u origin master
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 02 de NicolasPena"
+git push
+git branch feature01
+git checkout feature01
+mkdir Terminal Hardware
+touch Terminal/resumen.txt Hardware/resumen.txt
+git add .
+git commit -m "commit 03 de NicolasPena"
+git push origin feature01
+git branch feature02
+git checkout feature02
+vim Terminal/resumen.txt
+vim Hardware/resumen.txt
+git add .
+git commit -m "commit 04 de NicolasPena"
+git push origin feature02
+git checkout master
+mv comandos.txt comandosUtilizados.txt
+history

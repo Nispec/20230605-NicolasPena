@@ -1,0 +1,3 @@
+Motherboard
+RAM
+Unidad de almacenamiento principal(Disco duro o unidad de estado solido)
